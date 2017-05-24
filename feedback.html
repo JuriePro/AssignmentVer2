@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What you think</title>
+</head>
+	<body>
+			<form action="feedback.html">
+				<p>We would like to hear from you...</p>
+				<textarea name="comments" cols="20" rows="4">Enter your comments here...
+				</textarea>
+				<p> We would like to make a quick survey, please complete the following forms below.</p>
+				<br />
+				<input type="radio" name="Vote" value="Visite again"
+				checked="checked"/>Will Visite again
+				<input type="radio" name="Vote" value="Not sure" checked="checked"/>Might Visite again, not sure
+				<input type="radio" name="Vote" value="Never" checked="checked"/>Will never come back again.
+ <hr />
+				<label>
+					Age: <input type="text" name="age"/></label>
+					<br/>
+					Gender:
+					<input id="female" type="radio" name="gender" 
+					value="f" >
+					<
+				<label for="female">Female</label>
+				<input id="male" type="radio" name="gender"
+				    value="m">
+				    <label for="male">Male</label>
+
+			</form>
+			<fieldset>
+				<legend>Contact details (Optional)</legend>
+				<label>Email:<br />
+				<input type="text" name="email"></label><br />
+				<label>Mobile:<br />
+				<input type="text" name="mobile"></label><br />
+				<label>Telephone:<br />
+				<input type="text" name="telephone"></label>
+
+			</fieldset>
+			<fieldset>
+				<legend>
+					Your Review:
+				</legend>
+			<p>
+				<label for="hear-about">
+					How did you hear about us?
+				</label>
+				<select>
+					<option value="google">Google</option>
+					<option value="friend">Friend</option>
+					<option value="advert">Advert</option>
+					<option value="other">Other</option>
+				</select>
+			</p>
+			</fieldset>
+			<p>
+			<fieldset>
+			<label>
+				<input type="checkbox" name="subscribe" checked="checked" />
+				Sign me up for email updates
+			</label>
+			<br />	
+			<input type="submit" value="Submit review" />
+			</fieldset>
+			</p>
+	</body>
+</html>
